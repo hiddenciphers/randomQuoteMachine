@@ -97,6 +97,7 @@ body {
     #hiddenciphers, a {
         color: white;
         text-align: center;
+        font-size: 10pt;
         text-decoration: none;
     }
 }
