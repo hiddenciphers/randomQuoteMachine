@@ -1,0 +1,102 @@
+:root {
+    --color0: #F8C794;
+    --color1: #FF9F66;
+    --color2: #FF5F00;
+    --color3: #002379;
+    --color4: #074173;
+    --color5: #5BBCFF;
+    --color6: #5DEBD7;
+    --color7: #E1AFD1;
+    --color8: #FFB1B1;
+    --color9: #874CCC;
+    --color10: #41B06E;
+    --color11: #D1BB9E;
+    --color12: #B3C8CF;
+    --color13: #76885B;
+    --color14: #891652;
+    --color15: #0D9276;
+}
+
+body {
+    height: 95vh;
+}
+
+#project-container {
+    height: 100%;
+    width: auto;
+    padding: 10px;
+    align-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #quote-box {
+        background-color: white;
+        max-width: 600px;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 1em;
+        border-radius: 6px;
+
+        #text-div {
+            width: auto;
+            height: auto;
+            padding: 10px;
+            font-size: 22pt;
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+
+        #quotes {
+            color: white;
+            width: 30px;
+            font-size: 60pt;
+            font-family:Arial, Helvetica, sans-serif
+        }
+        
+        #author-div {  
+            position: relative;
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        #bottom-row {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #twitter-logo {
+            width: 40px;
+        }
+        
+        #tweet-quote {
+            border-radius: 6px;
+        }
+        
+        #new-quote {
+            color: white;
+            width: 100px;
+            height: 40px;
+            border-radius: 6px;
+            text-align: center;
+            align-content: center;
+            font-size: 12pt;
+            cursor: pointer;
+        }
+    }
+    #hiddenciphers, a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+}
